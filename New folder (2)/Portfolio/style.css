@@ -82,7 +82,9 @@ header.sticky{
     font-weight: 700;
     letter-spacing: 1px;
 }
-
+.logo .name1 {
+    color: white;
+}
 span{
     color: var(--hover-color);
 }
@@ -102,7 +104,7 @@ span{
 color: var(--hover-color);
 text-shadow:0 0 10px rgba(26, 240, 247, 0.796),
 0 0 20px rgba(26, 240, 247, 0.796),
-0 0 30px rgba(26, 240, 247, 0.796),
+0 0 30px #1af0f7cb,
 0 0 40pxrgba(26, 240, 247, 0.796),
 0 0 70pxrgba(26, 240, 247, 0.796),
 0 0 80px rgba(26, 240, 247, 0.796),
@@ -443,7 +445,7 @@ filter: blur(75px);
     padding-bottom: 0%;
     max-width: 500px;
     height: auto;
-    filter: drop-shadow(5px 10px 10px rgba(248, 245, 245, 0.6));
+    filter: drop-shadow(5px 10px 10px #1af0f77a);
 }
 
 .about-content span{
